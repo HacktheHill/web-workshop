@@ -1,0 +1,27 @@
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 0.25rem solid;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem var(--shadow-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.icon {
+    flex: 0 0 40%;
+}
+
+.number {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: auto 0;
+}
